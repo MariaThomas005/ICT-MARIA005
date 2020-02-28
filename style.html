@@ -1,0 +1,79 @@
+<!DOCKTYPE.html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>website design</title>
+	<style>
+		.container{
+			display:flex;
+			flex-wrap:
+		}
+		.container>div{
+			background-color: springgreen;
+			font-size: 20px;
+			margin: 20px;
+			padding: 20px;
+			width: 200px;
+		}
+		.grid{
+			background-color: pink;
+			display: grid;
+			padding: 20px;
+			grid-column-gap: 20px;
+			grid-row-gap: 10px;
+			grid-template-columns:200px 200px 200px auto;
+		}
+		.grid-item{
+			background-color: white;
+			font-size: 20px;
+			padding: 20px;
+			text-align: center;
+		}
+		.row>div{
+			padding: 20px;
+			background-color: teal;
+			border: 2x solid black;
+		}
+
+	</style>
+</head>
+<body>
+<div class="container">
+	<div>A. solid</div>
+	<div>B.liquid</div>
+	<div>C.gaseous</div>
+</div>
+<div class="grid">
+	<div>TECHNOLOGY 1.</div>
+	<div>INFORMATION 2.</div>
+	<div>GENDER 3.</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-3">
+			This is a section
+		</div>
+		<div>
+			<div class="col-3">
+				This is another section
+		</div><br>
+			<div class="col-3">
+				This is third section
+		</div>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-log-3col-sm6">
+					This is section one 
+				</div>
+				<div class="col-3">
+				This is third section
+		</div>
+		<div class="col-3">
+				This is third section
+		</div>
+		<div class="col-log-3col-sm6">
+					This is section one 
+				</div>
+</body>
+</html>
